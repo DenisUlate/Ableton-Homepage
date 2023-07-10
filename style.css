@@ -1,0 +1,92 @@
+/* Imported fonts */
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap");
+/* Fonts Family */
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	text-decoration: none;
+	font-family: "Roboto", sans-serif;
+}
+
+ul[role="list"],
+ol[role="list"] {
+	list-style: none;
+}
+
+body {
+	min-height: 100vh;
+	text-rendering: optimizeSpeed;
+	line-height: 1.5;
+}
+
+.container {
+	max-width: 1600px;
+	margin: auto;
+}
+
+/* Custom Class */
+:root {
+	--primary-font: "Roboto", sans-serif;
+	--secondary-font: "Oswald", sans-serif;
+
+	--yellow-color: #fbffa7;
+	--lightBlue-color: #b1c5ff;
+	--green-color: #b6ffc0;
+	--orange-color: #ff764d;
+	--purple-color: #d5b3ff;
+	--blue-color: #0000ff;
+
+	--main-nav-fontSize: 16px;
+	--second-nav-fontSize: 16px;
+
+	--h1-fontSize: 30px;
+	--p-fontSize: 20px;
+}
+
+.main-nav {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: space-between;
+	color: #0000;
+	padding: 20px;
+}
+
+.nav-links {
+	display: flex;
+	height: 30px;
+	list-style: none;
+}
+
+.nav-links a {
+	display: flex;
+	align-items: center;
+	color: #000000;
+	height: 100%;
+	font-family: var(--secondary-font);
+	font-size: var(--main-nav-fontSize);
+	font-weight: 500;
+}
+
+.logo {
+	padding: 0 30px;
+}
+
+.nav-links li {
+	margin-left: 20px;
+	padding: 0;
+	height: 100%;
+}
+
+.right-link {
+	margin-right: 0;
+	margin-left: auto;
+}
+
+.right-link a {
+	color: var(--blue-color);
+}
